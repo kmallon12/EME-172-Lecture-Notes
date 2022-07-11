@@ -1,0 +1,1263 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.13)  11 JUL 2022 11:57
+entering extended mode
+**"./Lecture 12.tex"
+(Lecture 12.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-07-12>
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/base\bk10.clo
+File: bk10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count182
+\c@chapter=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/04/20 v2.17j AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen139
+))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count191
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count192
+\leftroot@=\count193
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count194
+\DOTSCASE@=\count195
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count196
+\c@MaxMatrixCols=\count197
+\dotsspace@=\muskip16
+\c@parentequation=\count198
+\dspbrk@lvl=\count199
+\tag@help=\toks18
+\row@=\count266
+\column@=\count267
+\maxfields@=\count268
+\andhelp@=\toks19
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks20
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks27
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/arydshln\arydshln.sty
+Package: arydshln 2019/02/21 v1.76 
+\dashlinedash=\dimen148
+\dashlinegap=\dimen149
+\adl@box=\box52
+\adl@height=\dimen150
+\adl@heightsave=\dimen151
+\adl@depth=\dimen152
+\adl@depthsave=\dimen153
+\adl@finaldepth=\dimen154
+\adl@columns=\count269
+\adl@ncol=\count270
+\adl@currentcolumn=\count271
+\adl@currentcolumnsave=\count272
+\adl@totalheight=\count273
+\adl@totalheightsave=\count274
+\adl@dash=\count275
+\adl@gap=\count276
+\adl@cla=\count277
+\adl@clb=\count278
+\adl@everyvbox=\toks28
+\adl@LTpagetotal=\dimen155
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count279
+\calc@Bcount=\count280
+\calc@Adimen=\dimen156
+\calc@Bdimen=\dimen157
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count281
+\calc@Cskip=\skip57
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks29
+)
+\captionmargin=\dimen158
+\captionmargin@=\dimen159
+\captionwidth=\dimen160
+\caption@tempdima=\dimen161
+\caption@indent=\dimen162
+\caption@parindent=\dimen163
+\caption@hangindent=\dimen164
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count282
+\c@continuedfloat=\count283
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip58
+\enit@outerparindent=\dimen165
+\enit@toks=\toks30
+\enit@inbox=\box53
+\enit@count@id=\count284
+\enitdp@description=\count285
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/esint\esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup6
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count286
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count287
+\float@exts=\toks31
+\float@box=\box54
+\@float@everytoks=\toks32
+\@floatcapt=\box55
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip59
+\fb@frw=\dimen166
+\fb@frh=\dimen167
+\FrameRule=\dimen168
+\FrameSep=\dimen169
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/preprint\fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip60
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/was\gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count288
+\Gm@cntv=\count289
+\c@Gm@tempcnt=\count290
+\Gm@bindingoffset=\dimen170
+\Gm@wd@mp=\dimen171
+\Gm@odd@mp=\dimen172
+\Gm@even@mp=\dimen173
+\Gm@layoutwidth=\dimen174
+\Gm@layoutheight=\dimen175
+\Gm@layouthoffset=\dimen176
+\Gm@layoutvoffset=\dimen177
+\Gm@dimlist=\toks33
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen178
+\Gin@req@width=\dimen179
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count291
+\lst@gtempboxa=\box56
+\lst@token=\toks34
+\lst@length=\count292
+\lst@currlwidth=\dimen180
+\lst@column=\count293
+\lst@pos=\count294
+\lst@lostspace=\dimen181
+\lst@width=\dimen182
+\lst@newlines=\count295
+\lst@lineno=\count296
+\lst@maxwidth=\dimen183
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count297
+\lst@skipnumbers=\count298
+\lst@framebox=\box57
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip61
+\multirow@cntb=\count299
+\multirow@dima=\skip62
+\bigstrutjot=\dimen184
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.sty
+Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
+Package: import 2020/04/01  v 6.2
+))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/rsfso\rsfso.sty
+Package: rsfso 2013/11/02 v1.01 U/rsfso (Michael Sharpe)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks35
+\XKV@tempa@toks=\toks36
+)
+\XKV@depth=\count300
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 12.
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks37
+\pgfutil@tempdima=\dimen185
+\pgfutil@tempdimb=\dimen186
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common-lists.tex))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box58
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks38
+\pgfkeys@temptoks=\toks39
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+filtered.code.tex
+\pgfkeys@tmptoks=\toks40
+))
+\pgf@x=\dimen187
+\pgf@y=\dimen188
+\pgf@xa=\dimen189
+\pgf@ya=\dimen190
+\pgf@xb=\dimen191
+\pgf@yb=\dimen192
+\pgf@xc=\dimen193
+\pgf@yc=\dimen194
+\pgf@xd=\dimen195
+\pgf@yd=\dimen196
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count301
+\c@pgf@countb=\count302
+\c@pgf@countc=\count303
+\c@pgf@countd=\count304
+\t@pgf@toka=\toks41
+\t@pgf@tokb=\toks42
+\t@pgf@tokc=\toks43
+\pgf@sys@id@count=\count305
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count306
+\pgfsyssoftpath@bigbuffer@items=\count307
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen197
+\pgfmath@count=\count308
+\pgfmath@box=\box59
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count309
+))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen198
+\pgf@picmaxx=\dimen199
+\pgf@picminy=\dimen256
+\pgf@picmaxy=\dimen257
+\pgf@pathminx=\dimen258
+\pgf@pathmaxx=\dimen259
+\pgf@pathminy=\dimen260
+\pgf@pathmaxy=\dimen261
+\pgf@xx=\dimen262
+\pgf@xy=\dimen263
+\pgf@yx=\dimen264
+\pgf@yy=\dimen265
+\pgf@zx=\dimen266
+\pgf@zy=\dimen267
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen268
+\pgf@path@lasty=\dimen269
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen270
+\pgf@shorten@start@additional=\dimen271
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box60
+\pgf@hbox=\box61
+\pgf@layerbox@main=\box62
+\pgf@picture@serial@count=\count310
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen272
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen273
+\pgf@pt@y=\dimen274
+\pgf@pt@temp=\dimen275
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen276
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen277
+\pgf@sys@shading@range@num=\count311
+\pgf@shadingcount=\count312
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box63
+))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box64
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen278
+\pgf@nodesepend=\dimen279
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex)
+\pgffor@iter=\dimen280
+\pgffor@skip=\dimen281
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count313
+\pgfplotmarksize=\dimen282
+)
+\tikz@lastx=\dimen283
+\tikz@lasty=\dimen284
+\tikz@lastxsaved=\dimen285
+\tikz@lastysaved=\dimen286
+\tikz@lastmovetox=\dimen287
+\tikz@lastmovetoy=\dimen288
+\tikzleveldistance=\dimen289
+\tikzsiblingdistance=\dimen290
+\tikz@figbox=\box65
+\tikz@figbox@bg=\box66
+\tikz@tempbox=\box67
+\tikz@tempbox@bg=\box68
+\tikztreelevel=\count314
+\tikznumberofchildren=\count315
+\tikznumberofcurrentchild=\count316
+\tikz@fig@count=\count317
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count318
+\pgfmatrixcurrentcolumn=\count319
+\pgf@matrix@numberofcolumns=\count320
+)
+\tikz@expandcount=\count321
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/tikz-3dplot\tikz-3dplot
+.sty (C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrary3d.code.tex
+File: tikzlibrary3d.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryarrows.code.tex
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen291
+)))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/ushort\ushort.sty
+ushort.sty by M. Vaeth: Release: 2.2 
+Package: ushort 2001/06/13 v2.2
+) (C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen292
+\WF@size=\dimen293
+\c@WF@wrappedlines=\count322
+\WF@box=\box69
+\WF@everypar=\toks49
+Package: wrapfig 2003/01/31  v 3.6
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks50
+\SOUL@lasttoken=\toks51
+\SOUL@cmds=\toks52
+\SOUL@buffer=\toks53
+\SOUL@token=\toks54
+\SOUL@spaceskip=\skip63
+\SOUL@ttwidth=\dimen294
+\SOUL@uldp=\dimen295
+\SOUL@ulht=\dimen296
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.s
+ty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
+ty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+)))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryangles.code.tex
+File: tikzlibraryangles.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+decorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen297
+\pgfdecoratedremainingdistance=\dimen298
+\pgfdecoratedinputsegmentcompleteddistance=\dimen299
+\pgfdecoratedinputsegmentremainingdistance=\dimen300
+\pgf@decorate@distancetomove=\dimen301
+\pgf@decorate@repeatstate=\count323
+\pgfdecorationsegmentamplitude=\dimen302
+\pgfdecorationsegmentlength=\dimen303
+)
+\tikz@lib@dec@box=\box70
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryintersections.code.tex
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryintersections.code.tex
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryfpu.code.tex)
+\pgf@intersect@solutions=\count324
+))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+arypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.callouts.code.tex
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.callouts.code.tex))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodepartlowerbox=\box71
+\pgfnodeparttwobox=\box72
+\pgfnodepartthreebox=\box73
+\pgfnodepartfourbox=\box74
+\pgfnodeparttwentybox=\box75
+\pgfnodepartnineteenbox=\box76
+\pgfnodeparteighteenbox=\box77
+\pgfnodepartseventeenbox=\box78
+\pgfnodepartsixteenbox=\box79
+\pgfnodepartfifteenbox=\box80
+\pgfnodepartfourteenbox=\box81
+\pgfnodepartthirteenbox=\box82
+\pgfnodeparttwelvebox=\box83
+\pgfnodepartelevenbox=\box84
+\pgfnodeparttenbox=\box85
+\pgfnodepartninebox=\box86
+\pgfnodeparteightbox=\box87
+\pgfnodepartsevenbox=\box88
+\pgfnodepartsixbox=\box89
+\pgfnodepartfivebox=\box90
+)))
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count325
+\l__pdf_internal_box=\box91
+) (Lecture 12.aux)
+\openout1 = `"Lecture 12.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count326
+\scratchdimen=\dimen304
+\scratchbox=\box92
+\nofMPsegments=\count327
+\nofMParguments=\count328
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count329
+\MPscratchDim=\dimen305
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
+\everyMPtoPDFconversion=\toks56
+)
+LaTeX Info: Redefining \celsius on input line 94.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 94.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 94.
+Package gensymb Info: Using \Omega for \ohm on input line 94.
+
+Package gensymb Warning: Not defining \micro.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=0.0pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count332
+LaTeX Font Info:    Trying to load font information for U+msa on input line 108
+.
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 108
+.
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+esint on input line 1
+08.
+
+(C:\Users\kmall\AppData\Local\Programs\MiKTeX\tex/latex/esint\uesint.fd
+File: uesint.fd 
+)
+[1
+
+
+{C:/Users/kmall/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
+Package epstopdf Info: Source file: <Graphics//Lecture12Example2Proportional.ep
+s>
+(epstopdf)                    date: 2018-08-22 14:07:18
+(epstopdf)                    size: 86531 bytes
+(epstopdf)             Output file: <Graphics//Lecture12Example2Proportional-ep
+s-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Graphics//Lecture12E
+xample2Proportional-eps-converted-to.pdf Graphics//Lecture12Example2Proportiona
+l.eps>
+(epstopdf)             \includegraphics on input line 216.
+runsystem(miktex-epstopdf --outfile=Graphics//Lecture12Example2Proportional-eps
+-converted-to.pdf Graphics//Lecture12Example2Proportional.eps)...executed (allo
+wed).
+
+Package epstopdf Info: Result file: <Graphics//Lecture12Example2Proportional-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2022-07-11 11:57:39
+(epstopdf)                    size: 14704 bytes.
+<Graphics//Lecture12Example2Proportional-eps-converted-to.pdf, id=24, 421.575pt
+ x 316.18124pt>
+File: Graphics//Lecture12Example2Proportional-eps-converted-to.pdf Graphic file
+ (type pdf)
+<use Graphics//Lecture12Example2Proportional-eps-converted-to.pdf>
+Package pdftex.def Info: Graphics//Lecture12Example2Proportional-eps-converted-
+to.pdf  used on input line 216.
+(pdftex.def)             Requested size: 230.18253pt x 199.58119pt.
+Package epstopdf Info: Source file: <Graphics//Lecture12Example2Integral.eps>
+(epstopdf)                    date: 2018-08-22 14:05:58
+(epstopdf)                    size: 93204 bytes
+(epstopdf)             Output file: <Graphics//Lecture12Example2Integral-eps-co
+nverted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Graphics//Lecture12E
+xample2Integral-eps-converted-to.pdf Graphics//Lecture12Example2Integral.eps>
+(epstopdf)             \includegraphics on input line 218.
+runsystem(miktex-epstopdf --outfile=Graphics//Lecture12Example2Integral-eps-con
+verted-to.pdf Graphics//Lecture12Example2Integral.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Graphics//Lecture12Example2Integral-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2022-07-11 11:57:40
+(epstopdf)                    size: 15152 bytes.
+<Graphics//Lecture12Example2Integral-eps-converted-to.pdf, id=26, 421.575pt x 3
+16.18124pt>
+File: Graphics//Lecture12Example2Integral-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use Graphics//Lecture12Example2Integral-eps-converted-to.pdf>
+Package pdftex.def Info: Graphics//Lecture12Example2Integral-eps-converted-to.p
+df  used on input line 218.
+(pdftex.def)             Requested size: 230.18253pt x 199.58119pt.
+Package epstopdf Info: Source file: <Graphics//Lecture12Example2PI.eps>
+(epstopdf)                    date: 2018-08-22 14:07:05
+(epstopdf)                    size: 94401 bytes
+(epstopdf)             Output file: <Graphics//Lecture12Example2PI-eps-converte
+d-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Graphics//Lecture12E
+xample2PI-eps-converted-to.pdf Graphics//Lecture12Example2PI.eps>
+(epstopdf)             \includegraphics on input line 220.
+runsystem(miktex-epstopdf --outfile=Graphics//Lecture12Example2PI-eps-converted
+-to.pdf Graphics//Lecture12Example2PI.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Graphics//Lecture12Example2PI-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2022-07-11 11:57:41
+(epstopdf)                    size: 15181 bytes.
+<Graphics//Lecture12Example2PI-eps-converted-to.pdf, id=28, 421.575pt x 316.181
+24pt>
+File: Graphics//Lecture12Example2PI-eps-converted-to.pdf Graphic file (type pdf
+)
+<use Graphics//Lecture12Example2PI-eps-converted-to.pdf>
+Package pdftex.def Info: Graphics//Lecture12Example2PI-eps-converted-to.pdf  us
+ed on input line 220.
+(pdftex.def)             Requested size: 281.85587pt x 211.39647pt.
+Package epstopdf Info: Source file: <Graphics//Lecture12Example2PStep.eps>
+(epstopdf)                    date: 2018-08-22 14:44:27
+(epstopdf)                    size: 35960 bytes
+(epstopdf)             Output file: <Graphics//Lecture12Example2PStep-eps-conve
+rted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Graphics//Lecture12E
+xample2PStep-eps-converted-to.pdf Graphics//Lecture12Example2PStep.eps>
+(epstopdf)             \includegraphics on input line 225.
+runsystem(miktex-epstopdf --outfile=Graphics//Lecture12Example2PStep-eps-conver
+ted-to.pdf Graphics//Lecture12Example2PStep.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Graphics//Lecture12Example2PStep-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2022-07-11 11:57:41
+(epstopdf)                    size: 10701 bytes.
+<Graphics//Lecture12Example2PStep-eps-converted-to.pdf, id=29, 421.575pt x 316.
+18124pt>
+File: Graphics//Lecture12Example2PStep-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use Graphics//Lecture12Example2PStep-eps-converted-to.pdf>
+Package pdftex.def Info: Graphics//Lecture12Example2PStep-eps-converted-to.pdf 
+ used on input line 225.
+(pdftex.def)             Requested size: 230.18253pt x 199.58119pt.
+Package epstopdf Info: Source file: <Graphics//Lecture12Example2IStep.eps>
+(epstopdf)                    date: 2018-08-22 14:51:58
+(epstopdf)                    size: 501714 bytes
+(epstopdf)             Output file: <Graphics//Lecture12Example2IStep-eps-conve
+rted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Graphics//Lecture12E
+xample2IStep-eps-converted-to.pdf Graphics//Lecture12Example2IStep.eps>
+(epstopdf)             \includegraphics on input line 227.
+runsystem(miktex-epstopdf --outfile=Graphics//Lecture12Example2IStep-eps-conver
+ted-to.pdf Graphics//Lecture12Example2IStep.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Graphics//Lecture12Example2IStep-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2022-07-11 11:57:43
+(epstopdf)                    size: 43797 bytes.
+<Graphics//Lecture12Example2IStep-eps-converted-to.pdf, id=31, 421.575pt x 316.
+18124pt>
+File: Graphics//Lecture12Example2IStep-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use Graphics//Lecture12Example2IStep-eps-converted-to.pdf>
+Package pdftex.def Info: Graphics//Lecture12Example2IStep-eps-converted-to.pdf 
+ used on input line 227.
+(pdftex.def)             Requested size: 230.18253pt x 199.58119pt.
+ [3 <./Graphics//Lecture12Example2Proportional-eps-converted-to.pdf> <./Graphic
+s//Lecture12Example2Integral-eps-converted-to.pdf> <./Graphics//Lecture12Exampl
+e2PI-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Graphics//Lecture12Example2PIStep.eps>
+(epstopdf)                    date: 2018-08-22 14:44:50
+(epstopdf)                    size: 127901 bytes
+(epstopdf)             Output file: <Graphics//Lecture12Example2PIStep-eps-conv
+erted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Graphics//Lecture12E
+xample2PIStep-eps-converted-to.pdf Graphics//Lecture12Example2PIStep.eps>
+(epstopdf)             \includegraphics on input line 229.
+runsystem(miktex-epstopdf --outfile=Graphics//Lecture12Example2PIStep-eps-conve
+rted-to.pdf Graphics//Lecture12Example2PIStep.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Graphics//Lecture12Example2PIStep-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2022-07-11 11:57:44
+(epstopdf)                    size: 17933 bytes.
+<Graphics//Lecture12Example2PIStep-eps-converted-to.pdf, id=62, 421.575pt x 316
+.18124pt>
+File: Graphics//Lecture12Example2PIStep-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use Graphics//Lecture12Example2PIStep-eps-converted-to.pdf>
+Package pdftex.def Info: Graphics//Lecture12Example2PIStep-eps-converted-to.pdf
+  used on input line 229.
+(pdftex.def)             Requested size: 281.85587pt x 211.39647pt.
+ [4 <./Graphics//Lecture12Example2PStep-eps-converted-to.pdf> <./Graphics//Lect
+ure12Example2IStep-eps-converted-to.pdf> <./Graphics//Lecture12Example2PIStep-e
+ps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Graphics//Lecture12Example3Proportional.ep
+s>
+(epstopdf)                    date: 2018-08-22 15:00:00
+(epstopdf)                    size: 86539 bytes
+(epstopdf)             Output file: <Graphics//Lecture12Example3Proportional-ep
+s-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Graphics//Lecture12E
+xample3Proportional-eps-converted-to.pdf Graphics//Lecture12Example3Proportiona
+l.eps>
+(epstopdf)             \includegraphics on input line 263.
+runsystem(miktex-epstopdf --outfile=Graphics//Lecture12Example3Proportional-eps
+-converted-to.pdf Graphics//Lecture12Example3Proportional.eps)...executed (allo
+wed).
+
+Package epstopdf Info: Result file: <Graphics//Lecture12Example3Proportional-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2022-07-11 11:57:45
+(epstopdf)                    size: 14750 bytes.
+<Graphics//Lecture12Example3Proportional-eps-converted-to.pdf, id=92, 421.575pt
+ x 316.18124pt>
+File: Graphics//Lecture12Example3Proportional-eps-converted-to.pdf Graphic file
+ (type pdf)
+<use Graphics//Lecture12Example3Proportional-eps-converted-to.pdf>
+Package pdftex.def Info: Graphics//Lecture12Example3Proportional-eps-converted-
+to.pdf  used on input line 263.
+(pdftex.def)             Requested size: 234.8775pt x 176.1581pt.
+ [5
+
+ <./Graphics//Lecture12Example3Proportional-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Graphics//Lecture12Example3PD.eps>
+(epstopdf)                    date: 2018-08-22 15:32:59
+(epstopdf)                    size: 395956 bytes
+(epstopdf)             Output file: <Graphics//Lecture12Example3PD-eps-converte
+d-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Graphics//Lecture12E
+xample3PD-eps-converted-to.pdf Graphics//Lecture12Example3PD.eps>
+(epstopdf)             \includegraphics on input line 322.
+runsystem(miktex-epstopdf --outfile=Graphics//Lecture12Example3PD-eps-converted
+-to.pdf Graphics//Lecture12Example3PD.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Graphics//Lecture12Example3PD-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2022-07-11 11:57:46
+(epstopdf)                    size: 33065 bytes.
+<Graphics//Lecture12Example3PD-eps-converted-to.pdf, id=105, 421.575pt x 316.18
+124pt>
+File: Graphics//Lecture12Example3PD-eps-converted-to.pdf Graphic file (type pdf
+)
+<use Graphics//Lecture12Example3PD-eps-converted-to.pdf>
+Package pdftex.def Info: Graphics//Lecture12Example3PD-eps-converted-to.pdf  us
+ed on input line 322.
+(pdftex.def)             Requested size: 230.18253pt x 199.58119pt.
+Package epstopdf Info: Source file: <Graphics//Lecture12Example3PDStep.eps>
+(epstopdf)                    date: 2018-08-22 15:30:37
+(epstopdf)                    size: 36123 bytes
+(epstopdf)             Output file: <Graphics//Lecture12Example3PDStep-eps-conv
+erted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Graphics//Lecture12E
+xample3PDStep-eps-converted-to.pdf Graphics//Lecture12Example3PDStep.eps>
+(epstopdf)             \includegraphics on input line 324.
+runsystem(miktex-epstopdf --outfile=Graphics//Lecture12Example3PDStep-eps-conve
+rted-to.pdf Graphics//Lecture12Example3PDStep.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Graphics//Lecture12Example3PDStep-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2022-07-11 11:57:47
+(epstopdf)                    size: 10883 bytes.
+<Graphics//Lecture12Example3PDStep-eps-converted-to.pdf, id=107, 421.575pt x 31
+6.18124pt>
+File: Graphics//Lecture12Example3PDStep-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use Graphics//Lecture12Example3PDStep-eps-converted-to.pdf>
+Package pdftex.def Info: Graphics//Lecture12Example3PDStep-eps-converted-to.pdf
+  used on input line 324.
+(pdftex.def)             Requested size: 230.18253pt x 199.58119pt.
+ [6 <./Graphics//Lecture12Example3PD-eps-converted-to.pdf> <./Graphics//Lecture
+12Example3PDStep-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Graphics//Lecture12Example4PID.eps>
+(epstopdf)                    date: 2018-08-23 15:52:18
+(epstopdf)                    size: 517300 bytes
+(epstopdf)             Output file: <Graphics//Lecture12Example4PID-eps-convert
+ed-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Graphics//Lecture12E
+xample4PID-eps-converted-to.pdf Graphics//Lecture12Example4PID.eps>
+(epstopdf)             \includegraphics on input line 361.
+runsystem(miktex-epstopdf --outfile=Graphics//Lecture12Example4PID-eps-converte
+d-to.pdf Graphics//Lecture12Example4PID.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Graphics//Lecture12Example4PID-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2022-07-11 11:57:48
+(epstopdf)                    size: 37905 bytes.
+<Graphics//Lecture12Example4PID-eps-converted-to.pdf, id=131, 421.575pt x 316.1
+8124pt>
+File: Graphics//Lecture12Example4PID-eps-converted-to.pdf Graphic file (type pd
+f)
+<use Graphics//Lecture12Example4PID-eps-converted-to.pdf>
+Package pdftex.def Info: Graphics//Lecture12Example4PID-eps-converted-to.pdf  u
+sed on input line 361.
+(pdftex.def)             Requested size: 230.18253pt x 199.58119pt.
+Package epstopdf Info: Source file: <Graphics//Lecture12Example4PIDStep.eps>
+(epstopdf)                    date: 2018-08-23 15:52:28
+(epstopdf)                    size: 119557 bytes
+(epstopdf)             Output file: <Graphics//Lecture12Example4PIDStep-eps-con
+verted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=Graphics//Lecture12E
+xample4PIDStep-eps-converted-to.pdf Graphics//Lecture12Example4PIDStep.eps>
+(epstopdf)             \includegraphics on input line 363.
+runsystem(miktex-epstopdf --outfile=Graphics//Lecture12Example4PIDStep-eps-conv
+erted-to.pdf Graphics//Lecture12Example4PIDStep.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <Graphics//Lecture12Example4PIDStep-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2022-07-11 11:57:49
+(epstopdf)                    size: 17092 bytes.
+<Graphics//Lecture12Example4PIDStep-eps-converted-to.pdf, id=133, 421.575pt x 3
+16.18124pt>
+File: Graphics//Lecture12Example4PIDStep-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use Graphics//Lecture12Example4PIDStep-eps-converted-to.pdf>
+Package pdftex.def Info: Graphics//Lecture12Example4PIDStep-eps-converted-to.pd
+f  used on input line 363.
+(pdftex.def)             Requested size: 230.18253pt x 199.58119pt.
+ [7 <./Graphics//Lecture12Example4PID-eps-converted-to.pdf> <./Graphics//Lectur
+e12Example4PIDStep-eps-converted-to.pdf>] [8]
+Overfull \hbox (9.29053pt too wide) in paragraph at lines 487--488
+ [] 
+ []
+
+[9] [10] (Lecture 12.aux) ) 
+Here is how much of TeX's memory you used:
+ 22773 strings out of 478868
+ 468707 string characters out of 2848809
+ 772670 words of memory out of 3000000
+ 40218 multiletter control sequences out of 15000+600000
+ 414003 words of font info for 73 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 84i,10n,89p,435b,744s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\kmall\AppData\Local\MiKTeX\fonts/pk/ljfou
+r/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/kmall/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/kmall/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/kmall/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/kmall/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
+kmall/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C
+:/Users/kmall/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
+7.pfb><C:/Users/kmall/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi8.pfb><C:/Users/kmall/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr10.pfb><C:/Users/kmall/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr12.pfb><C:/Users/kmall/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/kmall/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/kmall/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/kmall/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/kmall/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/k
+mall/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:
+/Users/kmall/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb>
+Output written on "Lecture 12.pdf" (10 pages, 427437 bytes).
+PDF statistics:
+ 238 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+

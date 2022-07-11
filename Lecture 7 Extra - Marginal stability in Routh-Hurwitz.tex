@@ -1,0 +1,159 @@
+\documentclass{book}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{arydshln}
+\usepackage{calc}
+\usepackage{cancel}
+\usepackage{caption}
+\usepackage{cite}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage{esint}
+\usepackage{etoolbox}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{fullpage}
+\usepackage{gensymb}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{multirow}
+\usepackage{subfiles}
+\usepackage{rsfso}
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usepackage{ushort}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\usepackage{soul}
+\usepackage{epstopdf}
+\usepackage{array}
+\usepackage{slashbox}
+
+% pdf versions
+\pdfoptionpdfminorversion=7
+
+% handle page stretching
+\raggedbottom
+
+% Graphics file location
+\graphicspath{{Graphics/}{../Graphics/}}
+
+% Use for drawings
+\usetikzlibrary{angles,arrows,calc,decorations,intersections,patterns,positioning,quotes,shapes}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{decorations.pathreplacing}
+\newcommand{\midarrow}{\tikz \draw[-latex] (0,0) -- +(.1,0);}
+
+% Tikz commands for drawing block diagrams, etc...
+\tikzset{%
+	block/.style    = {draw, rectangle, minimum height = 2em, minimum width = 2em},
+	sum/.style      = {draw, circle}, % Adder
+	input/.style    = {fill=white, rectangle}, % Input
+	output/.style   = {fill=white, rectangle}, % Output
+	waypoint/.style   = {coordinate}, % Output
+}
+
+\tikzset{%
+	startstop/.style= {draw, rectangle, rounded corners, minimum width=2cm, minimum height=1cm,text centered},
+	inout/.style    = {draw, trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=2cm, minimum height=1cm, text centered},
+	process/.style  = {draw, rectangle, minimum width=2cm, minimum height=1cm, text centered},
+	decision/.style = {draw, diamond, minimum width=1.5cm, minimum height=1cm, text centered, diamond, aspect=2},
+	arrow/.style    = {thick,-latex,>=stealth},		
+}
+
+\tikzset{
+	saveuse path/.code 2 args={
+		\pgfkeysalso{#1/.style={insert path={#2}}}%
+		\global\expandafter\let\csname pgfk@\pgfkeyscurrentpath/.@cmd\expandafter\endcsname
+		% not optimal as it is now global through out the document
+		\csname pgfk@\pgfkeyscurrentpath/.@cmd\endcsname
+		\pgfkeysalso{#1}},
+	/pgf/math set seed/.code=\pgfmathsetseed{#1}}
+
+% Define Laplace, Fourier transform symbols
+\newcommand{\LT}{\mathcal{L}}
+\newcommand{\FT}{\mathcal{F}}
+
+% Define adjugate function
+\newcommand{\adj}{\text{adj}}
+
+% Define rank function
+\newcommand{\rank}{\text{rank}}
+
+% commands to speed up writing j\omega and s-plane
+\newcommand{\jw}{j\omega}
+\newcommand{\jt}{j\theta}
+\newcommand{\wt}{\omega t}
+\newcommand{\spl}{s\textrm{-plane}}
+\newcommand{\Lm}{\textrm{Lm }}
+% Clean up overline/underline for math mode
+\def\obar#1{\bar{#1}}
+\def\ubar#1{\ushort{#1}}
+
+\newcommand{\exmp}{\subsubsection*{Example}}
+\newcommand{\nib}{\noindent$ \bullet\ $}
+
+
+\begin{document}
+\section*{Marginal stability in Routh-Hurwitz}
+As discussed in class, having a row of zeros in the Routh array implies that there are an even number of poles symmetrically arranged about the origin:. From the lecture notes:
+
+\begin{quote}
+	\textit{How do we approach a system where an entire row is filled with zeros? This implies that an even number of poles of the system are arranged symmetrically around the origin. \textbf{This is in fact the only way to have poles on the $ \jw $ axis}.}
+	\begin{center}
+		\begin{tikzpicture}
+			\draw (-2,0) -- (2,0) node[below left] {$ \sigma $};
+			\draw (0,-2) -- (0,2) node[below left] {$ j\omega $};
+			\node at (-1.25,0) {\Large$ \times $};
+			\node at (1.25,0) {\Large$ \times $};
+			\node at (0,-1.25) {\Large$ \times $};
+			\node at (0,1.25) {\Large$ \times $};
+			\node at (-1.25*0.707,1.25*0.707) {\Large$ \times $};
+			\node at (1.25*0.707,1.25*0.707) {\Large$ \times $};
+			\node at (-1.25*0.707,-1.25*0.707) {\Large$ \times $};
+			\node at (1.25*0.707,-1.25*0.707) {\Large$ \times $};
+		\end{tikzpicture}
+	\end{center}
+	\textit{This implies that either there are poles in the RHP and/or there are poles on the $ j\omega $-axis. \textbf{Therefore, the system is BIBO unstable}. This is the only situation that will yield poles on the imaginary axis. There is a way to determine how many of the poles (roots) are on the imaginary axis and how many are in the RHP. We will demonstrate this with an example.}
+\end{quote}
+
+This property can be used to determine if a system is marginally stable. How far down the array the row of zeros occurs tells us how many zeros we will have symmetrically arranged about the origin. 
+
+Rows of zeros occur when an even polynomial (a polynomial with only even powers, e.g. $ s^4+s^2+1 $ or $ s^2+4 $) is a factor of the denominator polynomial. Even polynomials have roots that are symmetrically arranged about the origin, as in the above pole-zero diagram. If it so happens that the symmetric arrangement of poles puts the all the poles of the even polynomial on the $ j\omega $-axis, then the system will be marginally stable (assuming there are no other poles in the RHP, unrelated to the even polynomial)
+
+This case occurs when 1) we have a row of zeros in the Routh array, and 2) when we complete the array using the auxiliary polynomial, we find that there are no sign changes in the 1st column. 
+
+\subsection*{Example}
+Consider the denominator polynomial
+\[ p(s)=s^3+s^2+s+1 \]
+Build the Routh array:
+\begin{center}
+	\begin{tabular}{c c c l}\vspace{1em}
+		$ s^3 $: &  1 & 1 & \\ \vspace{1em}
+		$ s^2 $: &  1 & 1 & \\ \vspace{1em}
+		$ s^1 $: & $ \cancel{0}{\ 2} $ & & Row of zeros: $ p_{aux}=s^2+1 $ \\ \vspace{1em}
+		$ s^0 $: & 1 & & \hspace{4em} $ \frac{dp_{aux}}{ds} = 2 $
+	\end{tabular}
+\end{center}
+This is a 3rd order system, so there are 3 total poles. We have a row of zeros, and once we address the row of zeros with the auxiliary polynomial, we have no sign changes in the first column. The auxiliary polynomial is 2nd order, so we have two poles arranged symmetrical about the origin, and no poles in the RHP. The only way this is possible is if we have two poles on the $ j\omega $-axis. Because there are no sign changes overall, the one remaining pole is in the LHP. Therefore, the system must be marginally stable. (In fact, the poles of this system are at $ s=-1 $ and $ s=\pm1j $.
+
+\subsection*{Example}
+Consider the denominator polynomial
+\[ p(s)=-s^5+s^4-5s^3+5s^2-4s+4 \]
+Build the Routh array:
+\begin{center}
+	\begin{tabular}{c c c c l}\vspace{1em}
+		$ s^5 $: &  $ -1 $ & -5 & -4 & \\ \vspace{1em}
+		$ s^4 $: &  1 & 5 & 4 & \\ \vspace{1em}
+		$ s^3 $: & $ \cancel{0}\ 4 $ & $ \cancel{0}\ 10 $ & &  Row of zeros: $ p_{aux}=s^4+5s^2+41 $ \\ \vspace{1em}
+		$ s^2 $: & $ 5/2 $ & 4 & & \hspace{4em} $ \frac{dp_{aux}}{ds} = 4s^3+10 $ \\
+		$ s^1 $: & $ 18/5 $ & & & \\
+		$ s^0 $: & 4 & & & \\
+	\end{tabular}
+\end{center}
+This is a 5th order system, so there are 5 total poles. We again have a row of zeros, and once we address the row of zeros with the auxiliary polynomial, we have no sign changes in the first column. The auxiliary polynomial is 4th order, so we have four poles arranged symmetrical about the origin, and there are no sign changes from the $ s^4 $ row and onwards, so there are no RHP poles \textit{connected with the even polynomial/with the row of zeros}. The only way this is possible is if we have four poles on the $ j\omega $-axis. However, we have a sign change \textit{prior} to the row of zeros, indicating that we must have one pole in the RHP that is unrelated to the symmetrically arranged poles. Therefore the system is unstable, having 1 RHP pole and 4 poles on the $ j\omega $-axis. (In fact, the poles of this system are at $ s=+1 $, $ s=\pm1j $, and $ s=\pm2j $.
+\end{document}
+

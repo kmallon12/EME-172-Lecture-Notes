@@ -1,0 +1,186 @@
+\documentclass{book}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{arydshln}
+\usepackage{calc}
+\usepackage{cancel}
+\usepackage{caption}
+\usepackage{cite}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage{esint}
+\usepackage{etoolbox}
+\usepackage{float}
+\usepackage{framed}
+\usepackage{fullpage}
+\usepackage{gensymb}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{multirow}
+\usepackage{subfiles}
+\usepackage{rsfso}
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usepackage{ushort}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\usepackage{soul}
+\usepackage{epstopdf}
+\usepackage{pgfplots}
+
+% pdf versions
+\pdfoptionpdfminorversion=7
+
+% handle page stretching
+\raggedbottom
+
+% Graphics file location
+\graphicspath{{Graphics/}{../Graphics/}}
+
+% Use for drawings
+\usetikzlibrary{angles,arrows,calc,decorations,intersections,patterns,positioning,quotes,shapes}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{decorations.pathreplacing}
+\newcommand{\midarrow}{\tikz \draw[-latex] (0,0) -- +(.1,0);}
+
+% Tikz commands for drawing block diagrams, etc...
+\tikzset{%
+	block/.style    = {draw, rectangle, minimum height = 2em, minimum width = 2em},
+	sum/.style      = {draw, circle}, % Adder
+	input/.style    = {fill=white, rectangle}, % Input
+	output/.style   = {fill=white, rectangle}, % Output
+	waypoint/.style   = {coordinate}, % Output
+}
+
+\tikzset{%
+	startstop/.style= {draw, rectangle, rounded corners, minimum width=2cm, minimum height=1cm,text centered},
+	inout/.style    = {draw, trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=2cm, minimum height=1cm, text centered},
+	process/.style  = {draw, rectangle, minimum width=2cm, minimum height=1cm, text centered},
+	decision/.style = {draw, diamond, minimum width=1.5cm, minimum height=1cm, text centered, diamond, aspect=2},
+	arrow/.style    = {thick,-latex,>=stealth},		
+}
+
+\tikzset{
+	saveuse path/.code 2 args={
+		\pgfkeysalso{#1/.style={insert path={#2}}}%
+		\global\expandafter\let\csname pgfk@\pgfkeyscurrentpath/.@cmd\expandafter\endcsname
+		% not optimal as it is now global through out the document
+		\csname pgfk@\pgfkeyscurrentpath/.@cmd\endcsname
+		\pgfkeysalso{#1}},
+	/pgf/math set seed/.code=\pgfmathsetseed{#1}}
+
+% Define Laplace, Fourier transform symbols
+\newcommand{\LT}{\mathcal{L}}
+\newcommand{\FT}{\mathcal{F}}
+
+% Define adjugate function
+\newcommand{\adj}{\text{adj}}
+
+% Define rank function
+\newcommand{\rank}{\text{rank}}
+
+% commands to speed up writing j\omega and s-plane
+\newcommand{\jw}{j\omega}
+\newcommand{\spl}{s\textrm{-plane}}
+\newcommand{\wt}{\omega t}
+\newcommand{\Lm}{\textrm{Lm }}
+% Clean up overline/underline for math mode
+\def\obar#1{\bar{#1}}
+\def\ubar#1{\ushort{#1}}
+
+\newcommand{\exmp}{\subsubsection*{Example}}
+\newcommand{\nib}{\noindent$ \bullet\ $}
+
+
+\begin{document}
+\section*{Bode Controller Design Examples}
+Assume unity feedback systems with the following plant transfer functions. Use loop shaping to design a controller ($ G_c $) such that the closed loop system will meet the following requirements when subjected to a step input:
+\begin{itemize}
+	\item overshoot $ \leq $ 10\%,
+	\item settling time $ \leq $ 3 seconds,
+	\item steady state error $ \leq $ 10\%.
+\end{itemize}
+for the two plants
+\begin{enumerate}
+	\item[a)] $ G_p(s)=\dfrac{1}{\dfrac{s}{2}+1} $ 
+	\item[b)] $ G_p(s)=\dfrac{1}{(s+1)(s+3)(s+15)} $ 
+\end{enumerate}
+
+First, we find our constraints on $ \zeta $ and $ \omega_n $ from the given specifications. 
+\begin{equation}
+	\zeta \geq - \dfrac{\log\left(\dfrac{OS\%}{100}\right)}{\sqrt{\pi^2-\log\left(\dfrac{OS\%}{100}\right)^2}}=0.5912
+\end{equation}
+\begin{equation}
+	\omega_n \geq \dfrac{4}{t_s\zeta} = 2.2555
+\end{equation}
+
+We want to design our controller so that LM $ G_c G_p $ is large at low frequencies, small at high frequencies, and has this desired form near the 0 dB crossing:
+\begin{equation}
+	G_cG_p = \dfrac{\dfrac{\omega_n}{2\zeta}}{s\left(\dfrac{s}{2\zeta\omega_n}+1\right)}
+\end{equation}
+
+\begin{enumerate}
+	\item[a)] Let's pick $ \omega_n=2.5 $ and $ \zeta = 0.6 $. Then,
+	\begin{equation}
+		G_cG_p = \dfrac{\dfrac{2.5}{2\cdot0.6}}{s\left(\dfrac{s}{2\cdot0.6\cdot2.5}+1\right)} = \frac{2.083}{s\left(\frac{s}{3}+1\right)}
+	\end{equation}
+	Divide the desired $ G_cG_p $ through by $ G_p $ to get $ G_c $:
+	\begin{equation}
+		G_c = \dfrac{\dfrac{2.083}{s\left(\frac{s}{3}+1\right)}}{
+		\dfrac{1}{\frac{s}{2}+1}} = \dfrac{2.083\left(\frac{s}{2}+1\right)}{s\left(\frac{s}{3}+1\right)}
+	\end{equation}
+	We obtain strictly proper and therefore a valid controller.
+	
+	\item[b)] This problem has a 3rd order transfer function, but our desired $ G_c G_p $ is only 2nd order. We will look at two methods of approaching this, both using $ G_p $ inversion.
+	
+	\textbf{Method 1:} Let's stick with $ \omega_n=2.5 $ and $ \zeta = 0.6 $. Then, our desired $ G_cG_p $ is still
+	\begin{equation}
+		G_cG_p = \frac{2.083}{s\left(\frac{s}{3}+1\right)}
+	\end{equation}
+	Divide the desired $ G_cG_p $ through by $ G_p $ to get $ G_c $:
+	\begin{align*}
+		G_c & = \dfrac{\dfrac{2.083}{s\left(\frac{s}{3}+1\right)}}{\dfrac{1}{(s+1)(s+3)(s+15)}} \\
+		G_c & = \frac{2.083(s+1)(s+3)(s+15)}{s\left(\frac{s}{3}+1\right)} \\
+		G_c & = \frac{93.75(s+1)\left(\frac{s}{3}+1\right)\left(\frac{s}{15}+1\right)}{s\left(\frac{s}{3}+1\right)} \\
+		G_c & = \frac{93.75(s+1)\left(\frac{s}{15}+1\right)}{s}
+	\end{align*}
+	However, this transfer function is \textbf{improper} (the degree of the numerator is larger than the degree of the denominator, in other words it has more zeros than poles). We can make it proper by adding a fast pole with no gain.
+	\begin{equation}
+		\Rightarrow G_c = \frac{93.75(s+1)\left(\frac{s}{15}+1\right)}{s\left(\frac{s}{100}+1\right)}
+	\end{equation}
+	The exact location of this pole does not matter, so long as it is at least 4 to 5 times further left in the s-plane than the other poles and zeros. Placing it at $ s=-100 $ will suffice.
+	
+	\textbf{Method 2:} Let’s look at each of the poles of the plant:
+	\begin{enumerate}
+		\item The pole at $ s=-1 $ is too low of frequency; we must cancel it.
+		\item The pole at $ s=-3 $ is in a good spot. We will keep it.
+		\item The pole at $ s=-15 $ doesn’t help or hurt us. It is enough faster than the other poles and is far enough away that it doesn’t affect slope or shape near the 0dB crossing. We will leave it alone.
+	\end{enumerate}
+	Because the pole at $ s=-15 $ is far enough left, we could approximate the plant as
+	\begin{equation}
+		G_{p} \approx \frac{\frac{1}{15}}{(s+1)(s+3)}
+	\end{equation}
+	Then, we can carry out the inversion using the approximate $ G_p $. Let's stick with $ \omega_n=2.5 $ and $ \zeta = 0.6 $.
+	\begin{align*}
+		G_c & = \dfrac{\dfrac{2.083}{s\left(\frac{s}{3}+1\right)}}{\dfrac{1}{15(s+1)(s+3)}}\\
+		G_c & = \frac{2.083(s+1)(s+3)}{\frac{1}{15}s\left(\frac{s}{3}+1\right)} \\
+		G_c & = \frac{93.75(s+1)\left(\frac{s}{3}+1\right)}{s\left(\frac{s}{3}+1\right)} \\
+		\Rightarrow G_c & = \frac{93.75(s+1)}{s}
+	\end{align*}
+	We could alternatively think of this as defining a desired $ G_cG_p $ that keeps the $ s=-15 $ pole:
+	\begin{equation}
+		G_cG_p = \frac{2.083}{s\left(\frac{s}{3}+1\right)\left(\frac{s}{15}+1\right)}
+	\end{equation}
+	Then, divide through by the actual $ G_p $:
+	\begin{align*}
+		G_c & = \dfrac{\dfrac{2.083}{s\left(\frac{s}{3}+1\right)\left(\frac{s}{15}+1\right)}}{\dfrac{1}{(s+1)(s+3)(s+15)}} \\
+		G_c & =  \frac{93.75(s+1)\left(\frac{s}{3}+1\right)\left(\frac{s}{15}+1\right)}{s\left(\frac{s}{3}+1\right)\left(\frac{s}{15}+1\right)} \\
+		\Rightarrow G_c & = \frac{93.75(s+1)}{s}
+	\end{align*}
+	
+\end{enumerate}
+
+\end{document}
